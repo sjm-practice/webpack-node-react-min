@@ -6,6 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint . --ext .js,.jsx --ignore-pattern 'webpack.config.js'",
+    "build": "webpack --config webpack.config.js --mode development",
+    "start": "node server.js",
     "dev-server": "webpack-dev-server --config ./webpack.config.js --mode development"
   },
   "repository": {
