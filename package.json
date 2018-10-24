@@ -4,7 +4,8 @@
   "description": "A basic / minimum setup for React & Node using webpack",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-server": "webpack-dev-server --config ./webpack.config.js --mode development"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/sjm-practice/webpack-node-react-min/issues"
   },
-  "homepage": "https://github.com/sjm-practice/webpack-node-react-min#readme"
+  "homepage": "https://github.com/sjm-practice/webpack-node-react-min#readme",
+  "devDependencies": {
+    "webpack": "^4.23.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  }
 }
